@@ -1,0 +1,144 @@
+.body-html{
+    background:#040C17;
+}
+.container {
+    background:#040C17;
+    padding:20px;
+
+}
+.title-Wiki {
+    color:#f4f4f4; 
+    display:inline-block;
+}
+
+.title-subWiki{
+    color: #606f83;
+    text-align: right;
+    font-size: 12px;
+}
+
+.title-select{
+    color:#f4f4f4;
+}
+
+
+.list-country{
+    background:#040C17;
+    height: 400px;
+
+}
+
+.btn-primary{
+    background: #606f83;
+    color: f4f4f4;
+    margin: 2px;
+    height:40px;
+    
+}
+
+.title-country{
+    margin-top: 0px;
+}
+
+#block-detail {
+    position: fixed;
+    right:30px;
+    top:70px;
+    display: block;
+}
+.country-detail{
+    background: #f4f4f4;
+    width: 100%;
+    border-radius: 2%;
+    padding: 20px;
+        
+}
+
+.span-flag{
+    float:right;
+    clear:both;
+   padding: 0px 8px 0px 0px;
+}
+
+.detail-title{
+    padding: 2px 0px 0px 8px;
+}
+.title-Capital {
+  display: table;
+  border-spacing: 5px;
+  width:inherit;
+}
+
+
+#country-name{
+  
+  width: 450px;
+}
+
+#detail-borders{
+     border-top: 1px solid dimgrey;  
+}
+
+#title-borders, #title-language {
+    font-size: 20px;
+    font-style: bold;
+    border-top: 1px solid dimgrey;  
+}
+
+#title-name, #title-capital, #title-population, #title-region{
+    font-size: 20px;
+    font-style: bold;
+    height:70px;
+    border-top: 1px solid dimgrey;  
+}
+
+#title-timezone, #title-area  {
+    font-size: 20px;
+    font-style: bold;
+    border-top: 1px solid dimgrey;  
+}
+
+
+
+
+
+.txt-info{
+    font-size:14px;
+    
+}
+
+.ul-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 400px;
+
+}
+
+input[type=text]:focus {
+    border-color:blue;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 120px;
+}
+
+.span-time{
+    float:left;
+    width: 33%;
+    margin-top: 0px;
+}

@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Wikicountry - Vector Academy</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#637082">
+    <meta name="theme-color" content="#637082">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="js/vendor/jquery-ui-1.12.1.custom/jquery-ui.css">
+
+    	<link href="jquery-ui.css" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/4bbfb2fc8b.js"></script>
+    <script src="js/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/vendor/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    
+    
+    <script src="js/main.js"></script>
+</head>
+
+<body class="body-html">
+    <!-- Put your HTML code here -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+<!-- ################################################### -->
+<!-- ################################################### -->
+<!-- BLOQUE DE BOTONES y BUSCADOR -->
+<!-- ################################################### -->
+<!-- ################################################### -->
+
+                <h1 class="title-Wiki"> <i class="fa fa-globe" aria-hidden="true"></i> Wikicountry
+                    <p class="title-subWiki">The country database tool</p>
+                </h1>
+
+
+<!-- ################################################### -->
+<!-- BUSCADOR -->
+<!-- ################################################### -->
+                <div class="div-search" >
+  <input type="text" name="txt-search"  id="id-search" value="" onkeypress="doSomething(this, event)">
+  <input type="submit" value="Buscar" onclick="searchCountry()" >
+
+                </div>
+
+              <div class="div-buttons"> 
+                <h3 class="title-select">Click a country from the list:</p>
+                    <div class="list-country">
+                    </div> 
+                </div>
+            </div>
+<!-- ################################################### -->
+<!-- ################################################### -->
+<!-- BLOQUE DE DETALLE -->
+<!-- ################################################### -->
+<!-- ################################################### -->
+
+            <div class="col-md-6" id="block-detail">
+                <div class="country-detail">
+                    <div class="detail-title">
+                        <h1 class="title-country clearfix">
+                            <span id="country-name"></span>
+                            <span id="span-flag" class="span-flag"> <img src="" width="80" height="80" id="country-flag" > </span>
+                        </h1>
+
+                    </div>
+
+                    <div class="detail-Capital clearfix" id="div-capital">
+
+
+                        <div class="col-md-6" id="title-name">Name:
+                            <div class="txt-info">
+                                <p id="txt-name"> </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="title-capital">Capital:
+                            <div class="txt-info">
+                                <p id="txt-capital"> </p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="detail-population clearfix">
+                        <div class="col-md-6" id="title-region">Region:
+                            <div class="txt-info">
+                                <p id="txt-region"> </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="title-population">Population:
+                            <div class="txt-info">
+                                <p id="txt-population"> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail-area clearfix">
+                        <div class="col-md-6" id="title-area">Area:
+                            <div class="txt-info">
+                                <p id="txt-area"> </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="title-timezone">Time Zone:
+                            <div class="txt-info">
+<!--                                <ul class="ul-list" id="ul-timezones"> <li class="li-list"></ul> -->
+                                <p id="txt-timezones"> </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail-borders clearfix">
+                        <div class="col-md-6" id="title-borders">Borders:
+                            <div class="txt-info">
+                                <ul class="ul-list" id="ul-borders"> <li class="li-list"></ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="title-language">Language:
+                            <div class="txt-info">
+                                <ul class="ul-list" id="ul-languages"> <li class="li-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
